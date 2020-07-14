@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_notifier_package/src/data_notifier.dart';
-import 'package:flutter_notifier_package/src/provider_notifier.dart';
+import '../src/data_notifier.dart';
+import '../src/provider_notifier.dart';
 
 abstract class Notifier {
   /// Send [data] as broadcasts to listeners registered with [action].

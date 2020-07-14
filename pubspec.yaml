@@ -1,14 +1,14 @@
-name: flutter_notifier_package
-description: A new Flutter package.
-version: 0.0.1+1
+name: notifier_package
+description: A Flutter Notifier package using inherited widget.
+version: 0.0.2
 
 environment:
-  sdk: ">=2.4.0 <3.0.0"
+  sdk: ">=2.8.0 <3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  synchronized: ^2.2.0
+  synchronized: ^2.2.0+1
 
 dev_dependencies:
   flutter_test:

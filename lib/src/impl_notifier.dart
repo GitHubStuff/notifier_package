@@ -1,8 +1,8 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_notifier_package/flutter_notifier_package.dart';
-import 'package:flutter_notifier_package/src/provider_notifier.dart';
+import '../flutter_notifier_package.dart';
+import '../src/provider_notifier.dart';
 import 'package:synchronized/synchronized.dart';
 
 /// Implementation of [Notifier].

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_notifier_package/flutter_notifier_package.dart';
+import '../flutter_notifier_package.dart';
 
 import 'impl_notifier.dart';
 
@@ -14,6 +14,7 @@ class NotifierProvider extends InheritedWidget {
   }
 
   static Notifier of(BuildContext context) {
-    return (context.inheritFromWidgetOfExactType(NotifierProvider) as NotifierProvider)._notifier;
+    final result = context.dependOnInheritedWidgetOfExactType<NotifierProvider>();
+    return result._notifier;
   }
 }

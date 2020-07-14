@@ -1,5 +1,5 @@
-# flutter_notifier_package
+# notifier_package
 
-A new Flutter package.
+Update any widget at any time
 
 ## Getting Started
